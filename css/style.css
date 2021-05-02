@@ -1,3 +1,4 @@
+/* Variables */
 /* Global Style */
 body {
   background: #f2f2f2;
@@ -9,6 +10,12 @@ p {
 a {
   text-decoration: none; }
 
+.text-gray {
+  color: #737373; }
+
+.text-light-gray {
+  color: #B2B2B2; }
+
 .bg-gray {
   background-color: #f9f9f9; }
 
@@ -16,6 +23,29 @@ a {
   background: no-repeat center;
   background-size: cover;
   min-height: 300px; }
+
+.user-avatar {
+  color: #212121;
+  font-size: 0.875rem; }
+
+.sub-desc {
+  color: #737373;
+  font-size: 0.875rem; }
+  .sub-desc span {
+    display: inline-block; }
+    .sub-desc span:last-child {
+      position: relative;
+      padding-left: 1.5rem; }
+      .sub-desc span:last-child::before {
+        position: absolute;
+        left: 10px;
+        top: 9px;
+        content: '';
+        display: table;
+        width: 3px;
+        height: 3.5px;
+        border-radius: 5px;
+        background-color: #737373; }
 
 /* Navbar Style */
 .navbar {
@@ -29,7 +59,7 @@ a {
     background-color: transparent;
     border-radius: 14px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 0.875rem;
     min-width: 238px;
     height: calc(1em + .75rem + 2px); }
     .navbar .navbar-right .round-search::placeholder {
@@ -51,13 +81,39 @@ a {
     padding: .6rem 1.25rem; }
 
 /* Main Content Style */
-.main-content .heading {
-  font-size: 14px;
-  padding: 1rem; }
+.main-content {
+  background-color: #ffffff; }
+  .main-content .heading {
+    font-size: 0.875rem;
+    padding: 1rem; }
+    .main-content .heading a {
+      text-decoration: underline;
+      color: #3981E5; }
 
 /* --- Must-Have Apps Style --- */
-.top-post .banner-img {
-  background-image: url("../img/landing-1.svg"); }
+.top-post {
+  padding: 1.5rem 1rem; }
+  .top-post header h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px; }
+  .top-post header .sub-desc + p {
+    color: #737373;
+    font-size: 0.875rem;
+    font-weight: 500; }
+    .top-post header .sub-desc + p .fa-eye {
+      font-size: 16px; }
+  .top-post figure .contribute-txt {
+    font-size: 0.875rem; }
+  .top-post figure .sub-desc {
+    color: #B2B2B2;
+    font-size: 0.625rem; }
+    .top-post figure .sub-desc span:last-child::before {
+      top: 5px;
+      background-color: #B2B2B2; }
+  .top-post .banner-img {
+    background-image: url("../img/landing-1.svg");
+    border-radius: 5px; }
 
 /* --- Best Apps by LifeGoals Style --- */
 .best-apps h1 {

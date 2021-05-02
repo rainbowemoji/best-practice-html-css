@@ -1,3 +1,10 @@
+/* Variables */
+$font-size-base:    1rem !default; //16px
+$font-size-lg:      $font-size-base * 1.375 !default; //22px
+$font-size-md:      $font-size-base * .1.25 !default; //20px
+$font-size-sm:      $font-size-base * .875 !default;  //14px
+$font-size-xs:      $font-size-base * .625 !default;  //10px
+
 /* Global Style */
 body {
     background: #f2f2f2;
@@ -12,6 +19,14 @@ a {
     text-decoration: none;
 }
 
+.text-gray {
+    color: #737373;
+}
+
+.text-light-gray {
+    color: #B2B2B2;
+}
+
 .bg-gray {
     background-color: #f9f9f9;
 }
@@ -23,11 +38,34 @@ a {
 }
 
 .user-avatar {
-
+    color:#212121;
+    font-size: $font-size-sm;
 }
 
 .sub-desc {
+    color: #737373;
+    font-size: $font-size-sm;
 
+    span {
+        display: inline-block;
+
+        &:last-child {
+            position: relative;
+            padding-left: 1.5rem;
+    
+            &::before {
+                position: absolute;
+                left: 10px;
+                top: 9px;
+                content: '';
+                display: table;
+                width: 3px;
+                height: 3.5px;
+                border-radius: 5px;
+                background-color: #737373;
+            }
+        }
+    }
 }
 
 /* Navbar Style */
@@ -53,7 +91,7 @@ a {
             background-color: transparent;
             border-radius: 14px;
             color: #ffffff;
-            font-size: 14px;
+            font-size: $font-size-sm;
             min-width: 238px;
             height: calc(1em + .75rem + 2px);
 
@@ -85,18 +123,64 @@ a {
 
 /* Main Content Style */
 .main-content {
+    background-color: #ffffff;
 
     .heading {
-        font-size: 14px;
+        font-size: $font-size-sm;
         padding: 1rem;
+
+        a {
+            text-decoration: underline;
+            color: #3981E5;
+        }
     }
 }
 
 /* --- Must-Have Apps Style --- */
 .top-post {
+    padding: 1.5rem 1rem;
+
+    header {
+        h1 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        .sub-desc + p {
+            color: #737373;
+            font-size: $font-size-sm;
+            font-weight: 500;
+
+            .fa-eye {
+                font-size: 16px;
+            }
+        }
+    }
+
+    figure {
+
+        .contribute-txt {
+            font-size: $font-size-sm;
+        }
+
+        .sub-desc {
+            color: #B2B2B2;
+            font-size: $font-size-xs;
+
+            span:last-child {
+
+                &::before {
+                    top: 5px;
+                    background-color: #B2B2B2;
+                }
+            }
+        }
+    }
 
     .banner-img {
         background-image: url("../img/landing-1.svg");
+        border-radius: 5px;
     }
 }
 
