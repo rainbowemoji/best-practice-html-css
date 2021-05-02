@@ -1,4 +1,5 @@
 /* Variables */
+/* Color system */
 /* Global Style */
 body {
   background: #f2f2f2;
@@ -53,26 +54,26 @@ a {
   .navbar.bg-nav-blue {
     background: #3981E5; }
   .navbar .navbar-right .fa-search {
-    color: #ffffff;
+    color: #fff;
     font-size: 18px; }
   .navbar .navbar-right .round-search {
     background-color: transparent;
     border-radius: 14px;
-    color: #ffffff;
+    color: #fff;
     font-size: 0.875rem;
     min-width: 238px;
     height: calc(1em + .75rem + 2px); }
     .navbar .navbar-right .round-search::placeholder {
       /* Chrome, Firefox, Opera, Safari 10.1+ */
-      color: #ffffff;
+      color: #fff;
       opacity: 1;
       /* Firefox */ }
     .navbar .navbar-right .round-search:-ms-input-placeholder {
       /* Internet Explorer 10-11 */
-      color: #ffffff; }
+      color: #fff; }
     .navbar .navbar-right .round-search::-ms-input-placeholder {
       /* Microsoft Edge */
-      color: #ffffff; }
+      color: #fff; }
 
 /* Sidebar Style */
 .sidebar {
@@ -82,7 +83,7 @@ a {
 
 /* Main Content Style */
 .main-content {
-  background-color: #ffffff; }
+  background-color: #fff; }
   .main-content .heading {
     font-size: 0.875rem;
     padding: 1rem; }
@@ -124,7 +125,7 @@ a {
   padding: 16px;
   margin-bottom: 0; }
 .best-apps .best-apps-inner {
-  background: #ffffff;
+  background: #fff;
   padding: 16px; }
   .best-apps .best-apps-inner .banner-img {
     height: 284px;
@@ -147,7 +148,7 @@ a {
       font-size: 22px;
       line-height: 25px;
       letter-spacing: 0.3px;
-      color: #ffffff; }
+      color: #fff; }
   .best-apps .best-apps-inner section {
     padding: 16px;
     background: #F9F9F9; }
@@ -188,7 +189,7 @@ a {
 
 /* ---Be Successful at My Job Style --- */
 .be-successful {
-  background: #ffffff;
+  background: #fff;
   padding: 0 8px; }
   .be-successful h1 {
     color: #3981E5;
@@ -232,7 +233,7 @@ a {
       color: #212121;
       margin-bottom: 8px; }
   .be-successful .btn {
-    background: #FFFFFF;
+    background: #fff;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     font-weight: 500;
@@ -251,7 +252,7 @@ a {
   background: #3981E5;
   padding: 24px; }
   .ask-app-recommend p {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 16px; }
@@ -266,7 +267,7 @@ a {
     text-align: center;
     letter-spacing: 0.857143px;
     text-transform: uppercase;
-    color: #FFFFFF; }
+    color: #fff; }
 
 /* ---Search By Feature Style --- */
 .search-by-feature header {
@@ -285,10 +286,10 @@ a {
     color: #3981E5;
     text-transform: uppercase; }
 .search-by-feature div {
-  background: #ffffff;
+  background: #fff;
   padding: 16px 16px 0; }
   .search-by-feature div .btn {
-    background: #FFFFFF;
+    background: #fff;
     border: 1px solid #3981E5;
     box-sizing: border-box;
     border-radius: 4px;
@@ -312,7 +313,7 @@ a {
     color: #3981E5;
     text-transform: uppercase; }
 .popular-keywords div {
-  background: #ffffff;
+  background: #fff;
   padding: 16px 16px 0; }
   .popular-keywords div .btn {
     background: #F7F7F7;

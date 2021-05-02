@@ -1,9 +1,21 @@
 /* Variables */
-$font-size-base:    1rem !default; //16px
-$font-size-lg:      $font-size-base * 1.375 !default; //22px
-$font-size-md:      $font-size-base * .1.25 !default; //20px
-$font-size-sm:      $font-size-base * .875 !default;  //14px
-$font-size-xs:      $font-size-base * .625 !default;  //10px
+$font-size-base:        1rem !default; //16px
+$font-size-lg:          $font-size-base * 1.375 !default; //22px
+$font-size-md:          $font-size-base * .1.25 !default; //20px
+$font-size-sm:          $font-size-base * .875 !default;  //14px
+$font-size-xs:          $font-size-base * .625 !default;  //10px
+
+/* Color system */
+$white:               #fff !default;
+$black-light:         #212121;
+$black-meidum:        #252525;
+$blue-medium:         #3981e5;
+$gray-light:          #dddddd;
+$gray-medium:         #b2b2b2;
+$gray-heavy:          #737373;
+$green-light:         #88C347;
+$green-medium:        #37B779;
+$red-medium:          #FF512F;
 
 /* Global Style */
 body {
@@ -83,29 +95,29 @@ a {
     .navbar-right {
 
         .fa-search {            
-            color: #ffffff;
+            color: $white;
             font-size: 18px;
         }
 
         .round-search {
             background-color: transparent;
             border-radius: 14px;
-            color: #ffffff;
+            color: $white;
             font-size: $font-size-sm;
             min-width: 238px;
             height: calc(1em + .75rem + 2px);
 
             &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: #ffffff;
+                color: $white;
                 opacity: 1; /* Firefox */
               }
               
             &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-                color: #ffffff;
+                color: $white;
               }
               
             &::-ms-input-placeholder { /* Microsoft Edge */
-                color: #ffffff;
+                color: $white;
               }
         }
     }
@@ -123,7 +135,7 @@ a {
 
 /* Main Content Style */
 .main-content {
-    background-color: #ffffff;
+    background-color: $white;
 
     .heading {
         font-size: $font-size-sm;
@@ -196,7 +208,7 @@ a {
     }
 
     .best-apps-inner {
-        background: #ffffff;
+        background: $white;
         padding: 16px;
         
         .banner-img {
@@ -223,7 +235,7 @@ a {
                 font-size: 22px;
                 line-height: 25px;
                 letter-spacing: 0.3px;
-                color: #ffffff;
+                color: $white;
             }
         }
 
@@ -284,7 +296,7 @@ a {
 
 /* ---Be Successful at My Job Style --- */  
 .be-successful {
-    background: #ffffff;
+    background: $white;
     padding: 0 8px;
 
     h1 {
@@ -351,7 +363,7 @@ a {
     }
 
     .btn {
-        background: #FFFFFF;
+        background: $white;
         border: 1px solid #DDDDDD;
         border-radius: 4px;
         font-weight: 500;
@@ -374,7 +386,7 @@ a {
     padding: 24px;
 
     p {
-        color: #FFFFFF;
+        color: $white;
         font-size: 16px;
         line-height: 19px;
         margin-bottom: 16px;
@@ -391,7 +403,7 @@ a {
         text-align: center;
         letter-spacing: 0.857143px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $white;
     }
 }
 
@@ -419,11 +431,11 @@ a {
     }
 
     div {
-        background: #ffffff;
+        background: $white;
         padding: 16px 16px 0;
 
         .btn {
-            background: #FFFFFF;
+            background: $white;
             border: 1px solid #3981E5;
             box-sizing: border-box;
             border-radius: 4px;
@@ -457,7 +469,7 @@ a {
     }
 
     div {
-        background: #ffffff;
+        background: $white;
         padding: 16px 16px 0;
 
         .btn {
