@@ -12,6 +12,11 @@ a {
 .bg-gray {
   background-color: #f9f9f9; }
 
+.banner-img {
+  background: no-repeat center;
+  background-size: cover;
+  min-height: 300px; }
+
 /* Navbar Style */
 .navbar {
   padding: .3rem 1rem; }
@@ -50,14 +55,34 @@ a {
   font-size: 14px;
   padding: 1rem; }
 
-/* Best Apps by LifeGoals Style */
+/* --- Must-Have Apps Style --- */
+.top-post .banner-img {
+  background-image: url("../img/landing-1.svg"); }
+
+/* --- Best Apps by LifeGoals Style --- */
 .best-apps .banner-img {
-  height: 284px;
   background: url("../img/landing-2.svg") center;
   background-size: cover; }
+  .best-apps .banner-img .cover-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.4; }
   .best-apps .banner-img p {
     position: absolute;
     left: 20px;
-    bottom: 20px; }
+    bottom: 15px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700; }
+
+/* ---Be Successful at My Job Style --- */
+.be-successful .banner-img {
+  min-height: 168px; }
+
+/* Footer Style */
 
 /*# sourceMappingURL=style.css.map */

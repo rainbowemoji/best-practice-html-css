@@ -17,7 +17,9 @@ a {
 }
 
 .banner-img {
-
+    background: no-repeat center;
+    background-size: cover;
+    min-height: 300px;
 }
 
 .user-avatar {
@@ -25,7 +27,7 @@ a {
 }
 
 .sub-desc {
-
+    
 }
 
 /* Navbar Style */
@@ -90,19 +92,48 @@ a {
     }
 }
 
-/* Best Apps by LifeGoals Style */
-.best-apps {
-    
+/* --- Must-Have Apps Style --- */
+.top-post {
 
     .banner-img {
-        height:  284px;
+        background-image: url("../img/landing-1.svg");
+    }
+}
+
+/* --- Best Apps by LifeGoals Style --- */
+.best-apps {
+    
+    .banner-img {
         background: url("../img/landing-2.svg") center;
         background-size: cover;
+
+        .cover-back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000000;
+            opacity: 0.4;
+        }
 
         p {
             position: absolute;
             left: 20px;
-            bottom: 20px;
+            bottom: 15px;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 700;
         }
     }
 }
+
+/* ---Be Successful at My Job Style --- */  
+.be-successful {
+
+    .banner-img {
+        min-height: 168px;
+    }
+}
+
+/* Footer Style */
