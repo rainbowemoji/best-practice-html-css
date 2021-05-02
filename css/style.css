@@ -190,7 +190,7 @@ a {
     padding: 13px;
     margin: 0 8px 24px; }
 
-/* ---Be Successful at My Job Style --- */
+/* ---Ask App Recommend Style --- */
 .ask-app-recommend {
   background: #3981E5;
   padding: 24px; }
@@ -211,6 +211,66 @@ a {
     letter-spacing: 0.857143px;
     text-transform: uppercase;
     color: #FFFFFF; }
+
+/* ---Search By Feature Style --- */
+.search-by-feature header {
+  background: #F9F9F9;
+  padding: 16px;
+  align-items: center; }
+  .search-by-feature header p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #212121; }
+  .search-by-feature header a {
+    background: #F1F1F1;
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: #3981E5;
+    text-transform: uppercase; }
+.search-by-feature div {
+  background: #ffffff;
+  padding: 16px 16px 0; }
+  .search-by-feature div .btn {
+    background: #FFFFFF;
+    border: 1px solid #3981E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 16px;
+    margin-bottom: 16px; }
+
+/* ---Popular Keywords Style --- */
+.popular-keywords header {
+  background: #F9F9F9;
+  padding: 16px;
+  align-items: center; }
+  .popular-keywords header p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #212121; }
+  .popular-keywords header a {
+    background: #F1F1F1;
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: #3981E5;
+    text-transform: uppercase; }
+.popular-keywords div {
+  background: #ffffff;
+  padding: 16px 16px 0; }
+  .popular-keywords div .btn {
+    background: #F7F7F7;
+    border-radius: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px; }
+
+.last-desc {
+  background: #F9F9F9;
+  color: #212121;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 30px; }
 
 /* Footer Style */
 
