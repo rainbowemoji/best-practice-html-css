@@ -1,0 +1,26 @@
+/* Global Style */
+body {
+  font-family: 'Roboto', sans-serif; }
+
+p {
+  margin-bottom: 0; }
+
+/* Navbar Style */
+.navbar.bg-nav-blue {
+  background: #3981E5; }
+
+/* Sidebar Style */
+.sidebar {
+  min-width: 250px; }
+
+/* Best Apps by LifeGoals Style */
+.best-apps .banner-img {
+  height: 284px;
+  background: url("../img/landing-2.svg") center;
+  background-size: cover; }
+  .best-apps .banner-img p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
