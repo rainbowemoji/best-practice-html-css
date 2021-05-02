@@ -27,7 +27,7 @@ a {
 }
 
 .sub-desc {
-    
+
 }
 
 /* Navbar Style */
@@ -104,8 +104,7 @@ a {
 .best-apps {
     
     .banner-img {
-        background: url("../img/landing-2.svg") center;
-        background-size: cover;
+        background-image: url("../img/landing-2.svg");
 
         .cover-back {
             position: absolute;
@@ -133,6 +132,22 @@ a {
 
     .banner-img {
         min-height: 168px;
+
+        &.writer {
+            background-image: url("../img/blog-1.svg.svg");
+        }
+
+        &.worker {
+            background-image: url("../img/blog-2.svg.svg");
+        }
+
+        &.management {
+            background-image: url("../img/blog-3.svg.svg");
+        }
+
+        &.conference {
+            background-image: url("../img/blog-4.svg.svg");
+        }
     }
 }
 

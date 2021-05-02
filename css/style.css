@@ -61,8 +61,7 @@ a {
 
 /* --- Best Apps by LifeGoals Style --- */
 .best-apps .banner-img {
-  background: url("../img/landing-2.svg") center;
-  background-size: cover; }
+  background-image: url("../img/landing-2.svg"); }
   .best-apps .banner-img .cover-back {
     position: absolute;
     top: 0;
@@ -82,6 +81,14 @@ a {
 /* ---Be Successful at My Job Style --- */
 .be-successful .banner-img {
   min-height: 168px; }
+  .be-successful .banner-img.writer {
+    background-image: url("../img/blog-1.svg.svg"); }
+  .be-successful .banner-img.worker {
+    background-image: url("../img/blog-2.svg.svg"); }
+  .be-successful .banner-img.management {
+    background-image: url("../img/blog-3.svg.svg"); }
+  .be-successful .banner-img.conference {
+    background-image: url("../img/blog-4.svg.svg"); }
 
 /* Footer Style */
 
