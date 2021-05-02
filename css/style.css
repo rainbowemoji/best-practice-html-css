@@ -65,7 +65,8 @@ a {
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  padding: 16px; }
+  padding: 16px;
+  margin-bottom: 0; }
 .best-apps .best-apps-inner {
   background: #ffffff;
   padding: 16px; }
@@ -130,16 +131,64 @@ a {
     padding: 16px; }
 
 /* ---Be Successful at My Job Style --- */
-.be-successful .banner-img {
-  min-height: 168px; }
-  .be-successful .banner-img.writer {
-    background-image: url("../img/blog-1.svg"); }
-  .be-successful .banner-img.worker {
-    background-image: url("../img/blog-2.svg"); }
-  .be-successful .banner-img.management {
-    background-image: url("../img/blog-3.svg"); }
-  .be-successful .banner-img.conference {
-    background-image: url("../img/blog-4.svg"); }
+.be-successful {
+  background: #ffffff;
+  padding: 0 8px; }
+  .be-successful h1 {
+    color: #3981E5;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 16px 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; }
+    .be-successful h1 span {
+      padding-right: 8px; }
+    .be-successful h1 svg {
+      font-size: 12px; }
+  .be-successful figure {
+    width: 50%;
+    padding: 16px 8px;
+    margin-bottom: 0; }
+    .be-successful figure .banner-img {
+      border-radius: 6px;
+      margin-bottom: 8px;
+      min-height: 168px; }
+      .be-successful figure .banner-img.writer {
+        background-image: url("../img/blog-1.svg"); }
+      .be-successful figure .banner-img.worker {
+        background-image: url("../img/blog-2.svg"); }
+      .be-successful figure .banner-img.management {
+        background-image: url("../img/blog-3.svg"); }
+      .be-successful figure .banner-img.conference {
+        background-image: url("../img/blog-4.svg"); }
+    .be-successful figure figcaption {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #212121;
+      margin-bottom: 8px; }
+    .be-successful figure p {
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+      color: #212121;
+      margin-bottom: 8px; }
+  .be-successful .btn {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.857143px;
+    text-transform: uppercase;
+    color: #3981E5;
+    width: calc(100% - 16px);
+    padding: 13px;
+    margin: 0 8px 24px; }
 
 /* Footer Style */
 

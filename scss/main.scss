@@ -108,6 +108,7 @@ a {
         font-size: 22px;
         line-height: 26px;
         padding: 16px;
+        margin-bottom: 0;
     }
 
     .best-apps-inner {
@@ -199,25 +200,87 @@ a {
 
 /* ---Be Successful at My Job Style --- */  
 .be-successful {
+    background: #ffffff;
+    padding: 0 8px;
 
-    .banner-img {
-        min-height: 168px;
+    h1 {
+        color: #3981E5;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 16px 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
 
-        &.writer {
-            background-image: url("../img/blog-1.svg");
+        span {
+            padding-right: 8px;
         }
 
-        &.worker {
-            background-image: url("../img/blog-2.svg");
+        svg {
+            font-size: 12px;
+        }
+    }
+
+    figure {
+        width: 50%;
+        padding: 16px 8px;
+        margin-bottom: 0;
+
+        .banner-img {
+            border-radius: 6px;
+            margin-bottom: 8px;
+            min-height: 168px;
+    
+            &.writer {
+                background-image: url("../img/blog-1.svg");
+            }
+    
+            &.worker {
+                background-image: url("../img/blog-2.svg");
+            }
+    
+            &.management {
+                background-image: url("../img/blog-3.svg");
+            }
+    
+            &.conference {
+                background-image: url("../img/blog-4.svg");
+            }
         }
 
-        &.management {
-            background-image: url("../img/blog-3.svg");
+        figcaption {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            color: #212121;
+            margin-bottom: 8px;
         }
 
-        &.conference {
-            background-image: url("../img/blog-4.svg");
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.175px;
+            color: #212121;
+            margin-bottom: 8px;
         }
+    }
+
+    .btn {
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.857143px;
+        text-transform: uppercase;
+        color: #3981E5;
+        width: calc(100% - 16px);
+        padding: 13px;
+        margin: 0 8px 24px;
+
     }
 }
 
