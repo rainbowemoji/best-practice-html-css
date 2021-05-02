@@ -60,23 +60,74 @@ a {
   background-image: url("../img/landing-1.svg"); }
 
 /* --- Best Apps by LifeGoals Style --- */
-.best-apps .banner-img {
-  background-image: url("../img/landing-2.svg"); }
-  .best-apps .banner-img .cover-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000000;
-    opacity: 0.4; }
-  .best-apps .banner-img p {
-    position: absolute;
-    left: 20px;
-    bottom: 15px;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 700; }
+.best-apps h1 {
+  color: #212121;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 16px; }
+.best-apps .best-apps-inner {
+  background: #ffffff;
+  padding: 16px; }
+  .best-apps .best-apps-inner .banner-img {
+    height: 284px;
+    background: url("../img/landing-2.svg");
+    background-position: center;
+    background-size: cover; }
+    .best-apps .best-apps-inner .banner-img .cover-back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000000;
+      opacity: 0.4; }
+    .best-apps .best-apps-inner .banner-img p {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 25px;
+      letter-spacing: 0.3px;
+      color: #ffffff; }
+  .best-apps .best-apps-inner section {
+    padding: 16px;
+    background: #F9F9F9; }
+    .best-apps .best-apps-inner section .post-num {
+      color: #dddddd;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 24px;
+      letter-spacing: 0.5625px; }
+    .best-apps .best-apps-inner section div {
+      flex-grow: 1;
+      padding: 0 16px; }
+      .best-apps .best-apps-inner section div h2 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 0.4125px; }
+      .best-apps .best-apps-inner section div p {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.3px; }
+        .best-apps .best-apps-inner section div p.sub-desc {
+          font-size: 14px;
+          line-height: 16px;
+          color: #737373; }
+    .best-apps .best-apps-inner section svg {
+      color: #3981E5;
+      font-size: 12px;
+      margin: 6px 0; }
+  .best-apps .best-apps-inner > p {
+    background: #F9F9F9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    padding: 16px; }
 
 /* ---Be Successful at My Job Style --- */
 .be-successful .banner-img {
