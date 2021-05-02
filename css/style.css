@@ -82,13 +82,13 @@ a {
 .be-successful .banner-img {
   min-height: 168px; }
   .be-successful .banner-img.writer {
-    background-image: url("../img/blog-1.svg.svg"); }
+    background-image: url("../img/blog-1.svg"); }
   .be-successful .banner-img.worker {
-    background-image: url("../img/blog-2.svg.svg"); }
+    background-image: url("../img/blog-2.svg"); }
   .be-successful .banner-img.management {
-    background-image: url("../img/blog-3.svg.svg"); }
+    background-image: url("../img/blog-3.svg"); }
   .be-successful .banner-img.conference {
-    background-image: url("../img/blog-4.svg.svg"); }
+    background-image: url("../img/blog-4.svg"); }
 
 /* Footer Style */
 
