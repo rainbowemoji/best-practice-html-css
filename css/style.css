@@ -1,17 +1,54 @@
 /* Global Style */
 body {
+  background: #f2f2f2;
   font-family: 'Roboto', sans-serif; }
 
 p {
   margin-bottom: 0; }
 
+a {
+  text-decoration: none; }
+
+.bg-gray {
+  background-color: #f9f9f9; }
+
 /* Navbar Style */
-.navbar.bg-nav-blue {
-  background: #3981E5; }
+.navbar {
+  padding: .3rem 1rem; }
+  .navbar.bg-nav-blue {
+    background: #3981E5; }
+  .navbar .navbar-right .fa-search {
+    color: #ffffff;
+    font-size: 18px; }
+  .navbar .navbar-right .round-search {
+    background-color: transparent;
+    border-radius: 14px;
+    color: #ffffff;
+    font-size: 14px;
+    min-width: 238px;
+    height: calc(1em + .75rem + 2px); }
+    .navbar .navbar-right .round-search::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ffffff;
+      opacity: 1;
+      /* Firefox */ }
+    .navbar .navbar-right .round-search:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #ffffff; }
+    .navbar .navbar-right .round-search::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #ffffff; }
 
 /* Sidebar Style */
 .sidebar {
   min-width: 250px; }
+  .sidebar .list-group-item {
+    padding: .6rem 1.25rem; }
+
+/* Main Content Style */
+.main-content .heading {
+  font-size: 14px;
+  padding: 1rem; }
 
 /* Best Apps by LifeGoals Style */
 .best-apps .banner-img {
